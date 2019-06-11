@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>Voice Age</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="controls">
+      <button id="recordButton">Start</button>
+  </div>
+  <div id="formats">Format: start recording to see sample rate</div>
+  <div><p id="text"></p></div>
+  <!-- inserting these scripts at the end to be able to use all the elements in the DOM --> 
+  <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="socket.io.js"></script>
+  <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
